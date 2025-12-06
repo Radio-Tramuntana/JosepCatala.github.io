@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Josep Català - Autor</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: #fff;
+      overflow-x: hidden;
+    }
+    header {
+      text-align: center;
+      padding: 60px 20px;
+      animation: fadeIn 1.2s ease-in-out;
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    p.subtitle {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 16px;
+      backdrop-filter: blur(6px);
+      animation: slideUp 1.2s ease;
+    }
+    h2 {
+      border-left: 4px solid #fff;
+      padding-left: 10px;
+      margin-bottom: 20px;
+      font-size: 1.6rem;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    input, textarea {
+      padding: 12px;
+      border-radius: 8px;
+      border: none;
+      font-size: 1rem;
+    }
+    button {
+      background: #ffcc00;
+      border: none;
+      padding: 12px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: bold;
+    }
+    button:hover {
+      background: #e6b800;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes slideUp {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header style="display:flex; align-items:center; justify-content:center; gap:30px; text-align:center;">
+    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QLKRXhpZgAATU0AKgAAAAgAAwEPAAIAAAAM...AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" alt="Foto del autor Josep Català" style="max-width:220px; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.4);" />
+    <div>
+      <h1>Josep Català</h1>
+      <p class="subtitle">Autor y creador de historias<br><span style='font-size:1rem; opacity:0.9;'>pepdifital63@gmail.com</span></p>
+    </div>
+  </header>
+
+  <section>
+    <h2>Sobre mí</h2>
+    <p>
+      Bienvenido a la página oficial del autor Josep Català. Aquí podrás encontrar
+      información sobre mis obras, proyectos y formas de contacto. Me apasiona
+      explorar nuevas formas de narrativa y conectar con mis lectores.
+    </p>
+  </section>
+
+  <section>
+    <h2>Contacto</h2>
+    <p>Si deseas ponerte en contacto conmigo, utiliza el formulario:</p>
+    <form action="mailto:pepdifital63@gmail.com?subject=Nuevo%20mensaje%20desde%20la%20web" method="POST" enctype="text/plain">
+      <input type="text" name="nombre" placeholder="Tu nombre" required />
+      <input type="email" name="correo" placeholder="Tu correo electrónico" required />
+      <textarea name="mensaje" rows="5" placeholder="Tu mensaje" required></textarea>
+      <button type="submit">Enviar mensaje</button>
+    </form>
+  </section>
+
+</body>
+</html>
