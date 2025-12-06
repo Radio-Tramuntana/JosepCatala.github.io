@@ -1,125 +1,14 @@
 # JosepCatala.github.io
 Página de autor
+
+Josep Català 
+
+Autor de: "Los Pasadizos de la Memoria" 
+
+Sobre el autor
+Me presento: me llamo Josep Català y soy escritor novel. Tengo mi primera novela autopublicada en Amazon. "Los pasadizos de la memoria" a sido un proyecto en el que he volcado toda mi ilusión y esfuerzo. Espero que aquellos a los que os guste las tramas de misterio le deis una oportunidad.
+
+Actualmente estoy volcado de lleno en una recopilación de relatos de estilo gótico y terror, que espero que vea la luz en unos meses. 
+
 E-mail: pepdigital63@gmail.com
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Josep Català - Autor</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f5f5f5;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    header {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 40px 20px;
-      background-color: #ffffff;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-      flex-wrap: wrap;
-      text-align: center;
-    }
-    header img {
-      width: 120px;
-      height: 120px;
-      object-fit: cover;
-      border-radius: 50%;
-      margin-right: 20px;
-    }
-    header div {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2rem;
-    }
-    header p {
-      margin: 5px 0 0 0;
-      font-size: 1rem;
-      color: #333;
-    }
-    main {
-      max-width: 600px;
-      width: 90%;
-      margin: 40px auto;
-      background-color: #fff;
-      padding: 30px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-      border-radius: 10px;
-    }
-    main h2 {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-    form {
-      display: flex;
-      flex-direction: column;
-    }
-    input, textarea {
-      padding: 10px;
-      margin-bottom: 15px;
-      border-radius: 5px;
-      border: 1px solid #ccc;
-      font-size: 1rem;
-      resize: vertical;
-    }
-    button {
-      padding: 12px;
-      border: none;
-      border-radius: 5px;
-      background-color: #007bff;
-      color: white;
-      font-size: 1rem;
-      cursor: pointer;
-    }
-    button:hover {
-      background-color: #0056b3;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      font-size: 0.9rem;
-      color: #777;
-    }
-    @media(max-width: 500px){
-      header {
-        flex-direction: column;
-      }
-      header img {
-        margin: 0 0 15px 0;
-      }
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <img src="candidA.jpg" alt="Foto de Josep Català">
-    <div>
-      <h1>Josep Català</h1>
-      <p>pepdifital63@gmail.com</p>
-    </div>
-  </header>
-  <main>
-    <h2>Contacto</h2>
-    <form action="https://formspree.io/f/tu-codigo" method="POST">
-      <input type="text" name="name" placeholder="Tu nombre" required>
-      <input type="email" name="email" placeholder="Tu email" required>
-      <textarea name="message" rows="5" placeholder="Tu mensaje" required></textarea>
-      <button type="submit">Enviar</button>
-    </form>
-  </main>
-  <footer>
-    &copy; 2025 Josep Català
-  </footer>
-</body>
-</html>
+
